@@ -1,1 +1,94 @@
 /* You can add global styles to this file, and also import other style files */
+
+h1 {
+    color: rgb(255, 88, 88);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2,
+h3 {
+    color: rgb(255, 151, 151);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+body {
+    margin: 2em;
+}
+
+input,
+label {
+    width: 250px;
+    margin: auto;
+}
+
+body,
+input[text],
+button {
+    color: pink;
+    font-family: Cambria, Georgia;
+    background-color: #333333;
+}
+
+a {
+    cursor: pointer;
+    cursor: hand;
+}
+
+button {
+    font-family: Arial;
+    background-color: #616161;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+button:hover {
+    background-color: #cfd8dc;
+}
+
+button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+}
+
+
+/* Navigation link styles */
+
+nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+nav a:visited,
+a:link {
+    color: #607D8B;
+}
+
+nav a:hover {
+    color: #039be5;
+    background-color: #CFD8DC;
+}
+
+nav a.active {
+    color: #039be5;
+}
+
+
+/* everywhere else */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
